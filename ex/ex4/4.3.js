@@ -1,32 +1,3 @@
-// // const numberOfSib = Number(prompt("enter something"))
-//
-// const numSiblings = Number("1")
-//
-// console.log(Number('a'))
-// // console.log(Number("1"))
-// // console.log(Number("1.34"))
-// // console.log(parseInt("1"))
-// // console.log(parseInt("1.34"))
-//
-// let number = "3.41";
-// if (number.indexOf('.') > -1) {
-//     parseFloat(number)
-// } else {
-//     parseInt(number)
-// }
-//
-//
-// if (numSiblings === 1) {
-//     console.log("1 sibling!")
-// } else if (numSiblings > 1) {
-//     console.log("More than 1 sibling")
-// } else {
-//     console.log("No siblings")
-// }
-
-
-//4.3
-
 function avgTeam(points1, points2, points3) {
     return (points3 + points1 + points2) / 3
 }
@@ -49,18 +20,7 @@ function whoWin(johnTeam, mikeTeam, maryTeam) {
     } else if (mikeTeam === johnTeam || mikeTeam === maryTeam || johnTeam === maryTeam) {
         console.log("even")
     }
-
-
-    //
-    // if (johnTeam > mikeTeam && johnTeam > maryTeam) {
-    //     console.log("johnTeam")
-    // } else if (mikeTeam > johnTeam && mikeTeam > maryTeam) {
-    //     console.log("mikeTeam")
-    // } else if (maryTeam > mikeTeam && maryTeam > johnTeam) {
-    //     console.log("maryTeam")
-    // } else {
-    //     console.log("even")
-    // }
+ 
 }
 
 whoWin(johnTeam, mikeTeam, maryTeam);
