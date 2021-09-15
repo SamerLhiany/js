@@ -9,7 +9,7 @@ const book =
 }
 
 function samer (samer) {
-    return (`The book ${book.book_name} was written by ${book.author_name} in
-    the year ${book.publishing_year}`)
+    return (`The book ${samer.book_name} was written by ${samer.author_name} in
+    the year ${samer.publishing_year}`)
 }
-console.log(samer (samer));
+console.log(samer (book));
