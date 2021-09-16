@@ -16,4 +16,3 @@ function objswapp (obj) {
 console.log(objswapp (obj));
 
 
-
