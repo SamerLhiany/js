@@ -58,8 +58,8 @@ function funcD1() {
 /*Block 6*/
 
 // function funcE() {
-//     var f = 1;
-//     f++;
+    
+//    
 //     console.log("Value of f in local scope: ", f);
 // }
 // var f = 1;
