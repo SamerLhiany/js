@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.righletter {
+    padding: 10px;
+    font-weight: 900;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
+}
+
+.p1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.lettersguessed {
+font-size: 26px;
+}

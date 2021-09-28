@@ -1,0 +1,13 @@
+body {
+    background: rgb(133, 148, 182);
+     color: white;
+   }
+   
+   #dclock {
+       height: 10vh;
+      text-align: center;
+      justify-content: center;
+      margin-top: 10%;
+      font-size: 80px;
+      
+   }

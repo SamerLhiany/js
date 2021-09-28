@@ -1,0 +1,43 @@
+.container {
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    border: black 2px solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 5px;
+    background: black;
+    border-radius: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.box {
+    position: absolute;
+    background: brown;
+    height: 300px;
+    width: 300px;  
+    
+}
+
+.confirm {  
+    display: flex;
+    align-items: center;
+
+}
+
+.modify {
+
+}
