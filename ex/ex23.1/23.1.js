@@ -40,6 +40,7 @@ function clock(){
         seconds = seconds;
     }
     
+    /*--------------------------------------*/
     
     document.getElementById("dclock").innerHTML = (hours + ":" + minutes + ":" + seconds + meridiem);
     
