@@ -1,18 +1,20 @@
-const hero = {
-    health: 5,
-    power: 68,
-    getStrength: function () {
-        if (this.health <= 5) {
-            return this.power - 10;
-        } else return this.power;
-    }
-}
-function whoIsStronger(getStrength) {
-    const myStrength = 82;
-    if (getStrength() < myStrength) {
-        return "I am stronger";
-    } else return "You are stronger";
-}
+const wonderWoman = {
+    name: "Diana Prince"
+   }
+   const batman = {
+    name: "Bruce Wayne"
+   }
+   const superHeroes = [wonderWoman, batman];
 
-let getStrength = hero.getStrength.bind(hero);
-console.log(whoIsStronger(hero.getStrength));
+   function printName() {
+    console.log(`my name is ${this.name}`);
+   }
+   
+   function printHeroes(heroes, printFunc) {
+    return heroes.map(element=>{
+        printFunc.call(element)
+        
+    })
+   }
+
+   printHeroes(superHeroes, printName);
