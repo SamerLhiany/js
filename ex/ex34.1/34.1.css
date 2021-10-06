@@ -1,0 +1,12 @@
+th{
+    background: rgb(129, 178, 44);
+    border:1px solid black
+}
+
+tr:nth-child(odd){
+    background: rgb(225, 245, 182);
+}
+tr:nth-child(even){
+    background: rgb(237, 249, 212);
+
+}
